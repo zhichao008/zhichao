@@ -195,7 +195,7 @@ cat("Based on formula (6) composite indicator MC\n")
 cat("Using GARCH-MIDAS to estimate volatility\n\n")
 
 # Set parameters
-estimation_window_months <- 3  # Estimation window months (5 years)
+estimation_window_months <- 60  # Estimation window months (5 years)
 midas_lag <- 12  # MIDAS lag order k = 12
 smoothness_days <- 22  # Smoothness calculation window
 max_allocation <- 0.4  # Maximum weight constraint for India market
